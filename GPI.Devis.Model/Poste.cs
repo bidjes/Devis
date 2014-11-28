@@ -26,7 +26,7 @@ namespace Devis.Model
         public virtual string Code { get; set; }
         public virtual decimal PRUCalc { get; set; }
         public virtual decimal PRUSai { get; set; }
-        public virtual decimal PRURet 
+        public virtual decimal PRURet
         { 
             get 
             { 

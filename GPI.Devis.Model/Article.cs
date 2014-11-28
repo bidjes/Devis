@@ -18,6 +18,5 @@ namespace Devis.Model
             this.PRUCalc = Noeud.GetCoefAchat();
             this.EstSai = false;
         }
-
     }
 }
