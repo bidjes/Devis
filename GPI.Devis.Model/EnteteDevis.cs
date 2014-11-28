@@ -21,6 +21,7 @@ namespace Devis.Model
         public decimal DefaultPVUH1 { get; set; }
         public decimal DefaultPVUH2 { get; set; }
         public decimal DefaultPVUH3 { get; set; }
+        public int DefaultSousTypeHeure { get; set; }
 
         public decimal DefaultCoefAchat { get; set; }
         public decimal DefaultCoefMontant { get; set; }
