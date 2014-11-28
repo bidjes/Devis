@@ -27,35 +27,35 @@ namespace Devis.Model
 
         public decimal GetPRUH1()
         {
-            return EnteteDevis.DefaultPRUH1;
+            return EnteteDevis.GetPRUH1();
         }
         public decimal GetPRUH2()
         {
-            return EnteteDevis.DefaultPRUH2;
+            return EnteteDevis.GetPRUH2();
         }
         public decimal GetPRUH3()
         {
-            return EnteteDevis.DefaultPRUH3;
+            return EnteteDevis.GetPRUH3();
         }
         public decimal GetPVUH1()
         {
-            return EnteteDevis.DefaultPVUH1;
+            return EnteteDevis.GetPVUH1();
         }
         public decimal GetPVUH2()
         {
-            return EnteteDevis.DefaultPVUH2;
+            return EnteteDevis.GetPVUH2();
         }
         public decimal GetPVUH3()
         {
-            return EnteteDevis.DefaultPVUH3;
+            return EnteteDevis.GetPVUH3();
         }
         public decimal GetCoefAchat()
         {
-            return EnteteDevis.DefaultCoefAchat;
+            return EnteteDevis.GetCoefAchat();
         }
         public decimal GetCoefMontant()
         {
-            return EnteteDevis.DefaultCoefMontant;
+            return EnteteDevis.GetCoefMontant();
         }
     }
 }
