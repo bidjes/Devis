@@ -64,19 +64,6 @@ namespace Devis.Model
 
         protected internal abstract void InitPoste();
 
-        public virtual decimal QteH { get; set; }
-        public virtual int SousTypeH { get; set; }
-        public virtual decimal PRUHCalc { get; set; }
-        public virtual decimal PRUHSai { get; set; }
-        public virtual decimal PRUHRet { get { return HeureEstSai ? PRUHSai : PRUHCalc; } }
-        public virtual decimal PVUHCalc { get; set; }
-        public virtual decimal PVUHSai { get; set; }
-        public virtual decimal PVUHRet { get { return HeureEstSai ? PVUHSai : PVUHCalc; } }
-        public virtual decimal CAHCalc { get; set; }
-        public virtual decimal CAHSai { get; set; }
-        public virtual decimal CAHRet { get { return HeureEstSai ? CAHSai : CAHCalc; } }
-        public virtual bool HeureEstSai { get; set; }
-
         public virtual string VerifPoste()
         {
             if (this.ID > 0)

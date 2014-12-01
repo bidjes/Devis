@@ -7,8 +7,8 @@
     <ProjectGuid>{1E7A6791-C857-4DED-8BEC-A99D3AF9FAD8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GPI.Devis.Model</RootNamespace>
-    <AssemblyName>GPI.Devis.Model</AssemblyName>
+    <RootNamespace>Devis.Model</RootNamespace>
+    <AssemblyName>Devis.Model</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -50,6 +50,7 @@
     <Compile Include="EnteteDevis.cs" />
     <Compile Include="FactoryPoste.cs" />
     <Compile Include="Heure.cs" />
+    <Compile Include="ILignePoste.cs" />
     <Compile Include="INoeud.cs" />
     <Compile Include="IPoste.cs" />
     <Compile Include="Montant.cs" />
