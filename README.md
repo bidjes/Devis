@@ -4,7 +4,7 @@ Devis
 Gestion de devis
 
 ###Avancement
-- [x] Objets POCO
+- [ ] Objets POCO
 - [ ] Application WPF
 - [ ] Application ASP.Net
 
